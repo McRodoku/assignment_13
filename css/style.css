@@ -41,16 +41,14 @@ header {
 /* Set the layout of the menu: */
 .menu-item {
     display: inline-block;
-    margin: 1em .2em;
     min-width: 6em;
     text-align: center;
     background-color: #DCDCDC;
-    padding: 0.5em 1em;
 }
 
 /* Style the links: */
 .menu-item a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
