@@ -19,9 +19,8 @@ div{
     text-align: left;
 }
 
-.mainimage{
+img{
     float: center;
-    content:url("images/stock_cel.jpeg");
 }
 
 
