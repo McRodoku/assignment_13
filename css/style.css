@@ -12,6 +12,17 @@ h1{
     height: 200px;
     text-align: center;
 }
+
+h2{
+    font-family: FBSuperFun;
+    font-size: 100px;
+    background-color: #FFD700;
+    border: 2px black solid;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    height: 200px;
+    text-align: center;
+}
     
 div{
     font-family: Zipper-Regular;
