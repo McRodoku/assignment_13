@@ -15,7 +15,7 @@ h1{
 
 .firstimage{
     float: center;
-    content:url("./images/stock_cel.jpeg");
+    content:url("../images/stock_cel.jpeg");
 }
     
 div{
