@@ -19,7 +19,7 @@ div{
     text-align: left;
 }
 
-.firstimage{
+.mainimage{
     float: center;
     content:url("images/stock_cel.jpeg");
 }
