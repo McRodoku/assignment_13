@@ -19,9 +19,16 @@ div{
     text-align: left;
 }
 
-img{
+.mainimage{
     float: center;
+    content:url("../images/stock_cel.jpeg");
+
 }
 
+@media only screen and (min-width: 550px) {
+    .mainimage{
+        content:url("../images/stock_cel.jpeg");
+    }
+}
 
     
