@@ -19,6 +19,12 @@ div{
     text-align: center;
 }
 
+div1{
+    font-family: Zipper-Regular;
+    font-size: 50px;
+    text-align: center;
+}
+
 header {
     position: fixed;
     top: 0px;
