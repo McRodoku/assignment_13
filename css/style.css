@@ -12,11 +12,6 @@ h1{
     height: 200px;
     text-align: center;
 }
-
-.firstimage{
-    float: center;
-    content:url("images/stock_cel.jpeg");
-}
     
 div{
     font-family: Zipper-Regular;
@@ -24,6 +19,10 @@ div{
     text-align: left;
 }
 
+.firstimage{
+    float: center;
+    content:url("images/stock_cel.jpeg");
+}
 
 
     
