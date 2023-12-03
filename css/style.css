@@ -1,11 +1,9 @@
-/* General styling for the body */
-body {
+body{
     background-color: #DCDCDC;
     text-align: center;
 }
 
-/* Styling for the main heading (h1) */
-h1 {
+h1{
     font-family: FBSuperFun;
     font-size: 200px;
     background-color: #FFD700;
@@ -15,9 +13,8 @@ h1 {
     height: 200px;
     text-align: center;
 }
-
-/* Styling for generic div elements */
-div {
+    
+div{
     font-family: Zipper-Regular;
     border: 1px black solid;
     margin-bottom: 2px;
@@ -26,21 +23,18 @@ div {
     text-align: center;
 }
 
-/* Styling for a specific div with a smaller font size */
-div1 {
+div1{
     font-family: Zipper-Regular;
     font-size: 25px;
     text-align: center;
 }
 
-/* Styling for strong elements */
 strong {
     font-family: Zipper-Regular;
     font-size: 50px;
     text-align: center;
 }
 
-/* Styling for the header */
 header {
     position: fixed;
     top: 0px;
@@ -54,7 +48,7 @@ header {
     text-align: center;
 }
 
-/* Set the layout of the menu items in the header */
+/* Set the layout of the menu: */
 .menu-item {
     display: inline-block;
     min-width: 6em;
@@ -62,24 +56,22 @@ header {
     background-color: #DCDCDC;
 }
 
-/* Style the links in the menu items */
+/* Style the links: */
 .menu-item a {
     color: #000000;
     text-decoration: none;
 }
 
-/* Highlight menu items on hover */
 .menu-item:hover {
     background-color: #DCDCDC;
+   
 }
 
-/* Styling for dropdown menus */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Styling for dropdown content */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -90,6 +82,8 @@ header {
     z-index: 1;
 }
 
+/* ... (other styles) */
+
 /* Adjust styles for other header items to avoid being affected by the dropdown */
 .header-item {
     display: inline-block;
@@ -98,24 +92,20 @@ header {
     background-color: #DCDCDC;
 }
 
-/* Style the links in other header items */
 .header-item a {
     color: #000000;
     text-decoration: none;
 }
 
-/* Highlight other header items on hover */
 .header-item:hover {
     background-color: #DCDCDC;
 }
 
-/* Display dropdown content when hovering over the dropdown */
 .dropdown:hover .dropdown-content {
     display: block;
     position: relative;
 }
 
-/* Styling for individual items in the dropdown */
 .dropdown-item {
     display: block;
     text-align: left;
@@ -124,33 +114,29 @@ header {
     min-width: 5.9em;
 }
 
-/* Highlight dropdown items on hover */
 .dropdown-item:hover, .dropdown-item:hover a {
     color: black;
     background-color: #a2a2a2;
 }
 
-/* Styling for image container */
 .image-container {
     text-align: center;
+    float: center;
 }
 
-/* Styling for the main image */
 .mainimage {
     margin: auto; /* Center the image */
     display: block; /* Ensure the image is treated as a block element */
     max-width: 100%; /* Ensure the image does not exceed its container's width */
-    content: url("../images/stock_cel.jpeg");
+    content:url("../images/stock_cel.jpeg");
 }
 
-/* Media query for larger screens */
 @media only screen and (min-width: 550px) {
-    .mainimage {
-        content: url("../images/stock_cel.jpeg");
+    .mainimage{
+        content:url("../images/stock_cel.jpeg");
     }
 }
 
-/* Styling for form elements */
 form {
     margin: 20px auto;
     max-width: 400px;
@@ -160,14 +146,12 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for form labels */
 label {
     display: block;
     margin-bottom: 8px;
     color: #333;
 }
 
-/* Styling for form inputs */
 input {
     width: 100%;
     padding: 8px;
@@ -175,12 +159,16 @@ input {
     box-sizing: border-box;
 }
 
-/* Styling for form submit button */
 button {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+button:hover {
+    background-color: #0056b3;
+}
