@@ -67,7 +67,7 @@ header {
    
 }
 
-/* Add a dropdown feature: */
+
 .dropdown {
     display: inline-block;
 }
@@ -76,11 +76,13 @@ header {
     display: none;
     position: absolute;
     border: 1px solid #000;
-    margin: 0.5em 0 0 -1em;
+    margin-top: 0;
+    left: 0;
     color: #000;
-    background-color: #fff;
+    background-color: #DCDCDC;
     z-index: 1;
 }
+
 .dropdown-content a {
     color: #000;
 }
