@@ -67,19 +67,25 @@ header {
    
 }
 
+
 .dropdown {
-    position: relative;
     display: inline-block;
+    position: relative; 
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
-    top: 100%; /* Position the dropdown content below the dropdown button */
-    left: 0;
+    position: relative;
     border: 1px solid #000;
+    margin: 0; /* Set margin to zero to align with the menu item */
+    margin-top: 0.5em; /* Add some space between the menu item and dropdown content */
+    color: #000;
     background-color: #DCDCDC;
     z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000;
 }
 
 .dropdown:hover .dropdown-content {
@@ -102,7 +108,6 @@ header {
 
 .image-container {
     text-align: center;
-    float: center;
 }
 
 .mainimage {
