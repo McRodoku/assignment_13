@@ -134,7 +134,6 @@ header {
 /* Styling for image container */
 .image-container {
     text-align: center;
-    float: center; /* Note: 'float' property doesn't have a 'center' value. It is typically used with 'left' or 'right'. If you want to center an image, you can use 'margin: auto;' on the image itself. */
 }
 
 /* Styling for the main image */
