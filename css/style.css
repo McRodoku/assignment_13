@@ -118,6 +118,7 @@ header {
     .mainimage{
         content:url("../images/stock_cel.jpeg");
     }
+    text-align: center;
 }
 
 form {
