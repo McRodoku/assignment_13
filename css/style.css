@@ -107,18 +107,17 @@ header {
     float: center;
 }
 
-.mainimage{
-    float: center;
-    text-align: center;
+.mainimage {
+    margin: auto; /* Center the image */
+    display: block; /* Ensure the image is treated as a block element */
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
     content:url("../images/stock_cel.jpeg");
-
 }
 
 @media only screen and (min-width: 550px) {
     .mainimage{
         content:url("../images/stock_cel.jpeg");
     }
-    text-align: center;
 }
 
 form {
