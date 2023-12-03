@@ -21,6 +21,7 @@ div{
 
 div1{
     font-family: Zipper-Regular;
+    border: 1px black solid;
     font-size: 25px;
     text-align: center;
 }
