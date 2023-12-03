@@ -104,6 +104,7 @@ header {
 
 .mainimage{
     float: center;
+    text-align: center;
     content:url("../images/stock_cel.jpeg");
 
 }
