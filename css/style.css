@@ -82,8 +82,23 @@ header {
     z-index: 1;
 }
 
-.dropdown-content a {
-    color: #000;
+/* ... (other styles) */
+
+/* Adjust styles for other header items to avoid being affected by the dropdown */
+.header-item {
+    display: inline-block;
+    min-width: 6em;
+    text-align: center;
+    background-color: #DCDCDC;
+}
+
+.header-item a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-item:hover {
+    background-color: #DCDCDC;
 }
 
 .dropdown:hover .dropdown-content {
